@@ -1,5 +1,5 @@
 <template>
-<div></div>
+<div>WeddingFlower</div>
 </template>
 
 <script>

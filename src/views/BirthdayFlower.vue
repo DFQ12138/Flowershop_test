@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>BirthdayFlower</div>
 </template>
 
 <script>

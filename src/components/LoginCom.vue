@@ -1,10 +1,11 @@
 <template>
-  <div>FriendFlower</div>
+  <div>LoginCom</div>
+
 </template>
 
 <script>
 export default {
-  name: 'FriendFlower',
+  name: 'LoginCom',
 };
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>FlowerPay</div>
 </template>
 
 <script>

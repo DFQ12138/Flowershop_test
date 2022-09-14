@@ -49,7 +49,21 @@
         </div>
       </el-col>
     </el-row>
+    <el-row>
+      <el-col :span="18">
+        <!--设置默认选中的菜单项 index值为路由的path-->
+        <el-menu :default-active="activeIndex" class="el-menu-header" mode="horizontal" router>
+          <el-menu-item index="/">首页</el-menu-item>
+          <el-menu-item index="/loveflower">爱情鲜花</el-menu-item>
+          <el-menu-item index="/birthdayflower">生日鲜花</el-menu-item>
+          <el-menu-item index="/friendflower">友情鲜花</el-menu-item>
+          <el-menu-item index="/weddingflower">婚庆鲜花</el-menu-item>
+        </el-menu>
+      </el-col>
+    </el-row>
   </div>
+
+
 </template>
 
 <script setup>
@@ -90,6 +104,7 @@ ul {
     margin-top: 12px;
     margin-right: 8px;
     display: inline-block;
+    //noinspection CssUnknownTarget
     background-image: url(//localhost:8080/images/common_sprite.png);
     background-repeat: no-repeat;
     vertical-align: top;

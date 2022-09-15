@@ -9,4 +9,4 @@ const app = createApp(App)
 
 app.use(ElementPlus)
 app.use(router)
-app.mount('#app') // 挂载到id为app的元素上
+app.mount('#app')
